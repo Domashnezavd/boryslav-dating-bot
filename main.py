@@ -13,7 +13,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-TOKEN = "8904222239:AAF4utz7NX3WOiD5CEVUYozig49Ldcv4mu8"
+TOKEN = "8904222239:AAGEz8vmnLPxS7Z0g_Kq9KmNbXpXWsF-2OY"
 ADMIN_ID = 2131137264
 DB_PATH = "boryslav_dating.db"
 
