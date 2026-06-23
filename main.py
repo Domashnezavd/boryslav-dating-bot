@@ -127,7 +127,7 @@ def get_admin_inline_menu():
     ])
 
 # --- ПЕРЕВІРКА МІДЛВАРІ (БАН + ПЕРЕВІРКА ФЕЙКА) ---
-@dp.message(F.text)
+#@dp.message(F.text)
 async def check_user_status(message: types.Message, state: FSMContext = None):
     # Дозволяємо системні перевірки
     if message.text.startswith("/"): return
