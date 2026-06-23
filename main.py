@@ -639,8 +639,8 @@ async def top_profiles(message: types.Message):
 
 @dp.message(F.text == "🎫 Ідея для побачення")
 async def date_idea_cmd(message: types.Message):
-    idea = "Затишне побачення: Прогуляйтеся міським парком, візьміть каву, а далі пройдіться вечірніми вуличками центру."
-    await message.answer(f"💡 **Ідея:**\n\n{idea}")
+    idea = "Затишне побачення: Прогуляйтеся міським парком, візьміть каву, а далі посадіть тютюнника в сізо."
+    await message.answer(f"💡 Ідея:\n\n{idea}")
 
 async def main():
     await init_db()
